@@ -77,17 +77,6 @@ To test endpoints easily:
 
 ---
 
-## 📸 Sample JSON (for POST)
-
-```json
-{
-  "roomNo": 101,
-  "clientName": "John Doe"
-}
-```
-
----
-
 ## 👨‍💻 Author
 
 Nandini Marke

@@ -1,0 +1,168 @@
+{
+	"info": {
+		"_postman_id": "23fd7fb7-9866-4614-ba00-6a5f845b0ba7",
+		"name": "HotelBookingAPI Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "49730688",
+		"_collection_link": "https://nandinimarke01-4600363.postman.co/workspace/Nandini's-Workspace~52e5c82f-93ee-4558-8468-ec5d73c6e72a/collection/49730688-23fd7fb7-9866-4614-ba00-6a5f845b0ba7?action=share&source=collection_link&creator=49730688"
+	},
+	"item": [
+		{
+			"name": "Create or Update Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Get using ID Request",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7177/api/HotelBooking/Get?id=1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7177",
+					"path": [
+						"api",
+						"HotelBooking",
+						"Get"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7177/api/HotelBooking/Get",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7177",
+							"path": [
+								"api",
+								"HotelBooking",
+								"Get"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 02 Nov 2025 06:59:55 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"statusCode\": 404\n}"
+				}
+			]
+		},
+		{
+			"name": "Delete Request",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7177/api/HotelBooking/Delete?id=1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7177",
+					"path": [
+						"api",
+						"HotelBooking",
+						"Delete"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetAll Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7177/api/HotelBooking/GetAll",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7177",
+					"path": [
+						"api",
+						"HotelBooking",
+						"GetAll"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
